@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringInAction" />
+        <module name="SpringDo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Lambda" target="1.5" />
+      <module name="SpringDo" target="1.8" />
       <module name="SpringInAction" target="1.5" />
     </bytecodeTargetLevel>
   </component>

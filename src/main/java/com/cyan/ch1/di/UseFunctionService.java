@@ -5,10 +5,11 @@ import org.springframework.stereotype.Service;
 
 /**
  * Created by Cyan on 2017/9/21.
+ *
  */
 @Service
 public class UseFunctionService {
-    @Autowired
+    @Autowired//把FunctionService实体的Bean注入到UseFunctionService中,让UseFunctionService具有FunctionService的功能
     FunctionService functionService;
 
     public String sayHello(String word){
